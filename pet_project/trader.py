@@ -12,7 +12,7 @@ class FinanceDiary:
         self.usd_balance = self.account_info['USD balance']
         self.sell_usd_course = self.account_info['sell dollar course']
         self.buy_usd_course = self.account_info['buy dollar course']
-        #self.average_asset_value_usd = self.account_info["average asset value USD"]
+        # self.average_asset_value_usd = self.account_info["average asset value USD"]
         self.amount_spent_on_buying = self.account_info["amount spent on buying currency UA"]
 
     # Метод который заранее вычитывает заготовленный файл и создает последующий файл истории
